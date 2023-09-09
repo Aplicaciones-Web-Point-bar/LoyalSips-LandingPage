@@ -14,6 +14,7 @@
 }
 
 html{
+    background-color: #7474749f;
     font-size: 62.5%;
     scroll-behavior: smooth;
     scroll-padding-top: 6rem;
@@ -31,14 +32,14 @@ section{
 }
   
 
-
+/*color del fondo de los titulos*/
 .heading{
     text-align: center;
     font-size: 4rem;
-    color:rgb(51, 51, 51);
+    color:rgb(255, 255, 255);
     padding:1rem;
     margin:2rem 0;
-    background:rgba(255, 51, 153,.05);
+    background:rgb(92, 91, 91);
 }
 
 .heading span{
@@ -95,7 +96,7 @@ header .navbar a:hover{
 
 header .icons a{
     font-size: 2.5rem;
-    color:#333;
+    color:#979595;
     margin-left: 1.5rem;
 }
 
@@ -118,7 +119,7 @@ header #toggler{
 
 header .fa-bars{
     font-size: 3rem;
-    color:#333;
+    color:#c40e0e;
     border-radius: .5rem;
     padding:.5rem 1.5rem;
     cursor: pointer;
@@ -167,6 +168,7 @@ header .fa-bars{
     padding-bottom: 3rem;
 }
 
+
 .about .row .imagen{
     flex:1 1 40rem;
     position: relative;
@@ -210,7 +212,7 @@ header .fa-bars{
 }
 
 .icons-container{
-    background:#eee;
+    background:#888888;
     display: flex;
     flex-wrap: wrap;
     gap:1.5rem;
@@ -219,7 +221,7 @@ header .fa-bars{
 }
 
 .icons-container .icons{
-    background:#fff;
+    background:rgb(201, 200, 200);
     border:.1rem solid rgba(0,0,0,.1);
     padding:2rem;
     display: flex;
@@ -233,9 +235,9 @@ header .fa-bars{
 }
 
 .icons-container .icons h3{
-    color:#333;
+    color:#eeeeee;
     padding-bottom: .5rem;
-    font-size: 1.5rem;
+    font-size: 2.0rem;
 }
 
 .icons-container .icons span{
@@ -263,7 +265,7 @@ header .fa-bars{
     padding:.7rem 1rem;
     font-size: 2rem;
     color:var(--gray);
-    background:rgba(255, 51, 153,.05);
+    background:rgb(204, 204, 204);
     z-index: 1;
     border-radius: .5rem;
 }
@@ -276,7 +278,7 @@ header .fa-bars{
 }
 
 .services .box-container .box .image img{
-    height:25rem;
+    height:rem;
 }
 
 .services .box-container .box:hover .image img{
@@ -344,6 +346,7 @@ header .fa-bars{
 
 .review .box-container .box{
     flex:1 1 30rem;
+    background-color: rgba(39, 38, 38, 0.6) ;
     box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
     border-radius: .5rem;
     padding:3rem 2rem;
@@ -450,14 +453,14 @@ header .fa-bars{
 }
 
 .footer .box-container .box h3{
-    color:#333;
+    color:#ffffff;
     font-size: 2.5rem;
     padding:1rem 0;
 }
 
 .footer .box-container .box a{
     display: block;
-    color:#666;
+    color:#3d3d3d;
     font-size: 1.5rem;
     padding:1rem 0;
 }
